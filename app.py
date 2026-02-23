@@ -46,7 +46,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown('<div class="big-title">🏆 Sistem Cerdas Pemilihan Guru Terbaik</div>', unsafe_allow_html=True)
-st.markdown("### Hybrid Sequential: Naive Bayes + AHP")
+st.markdown("### Hybrid : Naive Bayes Classifier (NBC) + Analytical Hierarchy Process (AHP)")
 
 uploaded_file = st.file_uploader("Upload File Excel (.xlsx)", type=["xlsx"])
 
@@ -1638,3 +1638,4 @@ if uploaded_file is not None:
             
 else:
     st.info("👈 Silakan upload file Excel untuk memulai analisis")
+
